@@ -848,6 +848,7 @@ body.nav-opened .nav {
     float: left;
     background: none !important; /* Makes sure there is never a background */
     border: none !important; /* Makes sure there is never a border */
+    padding: 5px;
 }
 
 .blog-logo img {
@@ -855,8 +856,9 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
-    padding: 1px 0 5px 0;
+    height: 100px;
+    border-radius: 50% 50%;
+    box-shadow: 0px 0px 10px 2px;
     width: auto;
 }
 
@@ -1778,10 +1780,6 @@ body.page-template .post-title {
         padding: 10% 0;
     }
 
-    .blog-logo img {
-        padding: 4px 0;
-    }
-
     .page-title {
         font-size: 4rem;
         letter-spacing: -1px;
@@ -1935,7 +1933,7 @@ body.page-template .post-title {
     }
 
     .blog-logo img {
-        height: 30px;
+        height: 60px;
     }
 
     .menu-button {
